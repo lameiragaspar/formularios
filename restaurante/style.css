@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    border-radius: border-box;
+}
+
+html{
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main, header{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+
+header{
+    margin: 20px;
+}
+header > menu > ul > li{
+    list-style: none;
+    margin-top: 5px;
+}
+header > p ,h1, h4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+fieldset{
+    border-radius: 10px;
+    color: black;
+}
+
+legend{
+    font-size: 0.8em;
+}
+
+main{
+    padding: 10px;
+}
+
+main p{
+    margin: 10px 0;
+    text-indent: 1em;
+    font-weight: 550;
+}
+
+main li{
+    list-style: none;
+    margin-top: 5px;
+    text-indent: 3em;
+    cursor: pointer;
+}
+
